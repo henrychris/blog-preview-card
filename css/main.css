@@ -137,3 +137,8 @@ main {
     margin: 0 0 12px 0;
     color: var(--gray-500);
 }
+
+.card-author {
+    padding-left: 44px;
+    color: var(--gray-950);
+}

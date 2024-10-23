@@ -8,14 +8,7 @@
     font-family: "Figtree";
     src: local("Figtree"),
         url("../assets/fonts/Figtree-VariableFont_wght.ttf") format("truetype");
-    font-weight: normal;
-    font-style: normal;
-}
-
-@font-face {
-    font-family: "Figtree ExtraBold";
-    src: local("Figtree"),
-        url("../assets/fonts/static/Figtree-ExtraBold.ttf") format("truetype");
+    font-weight: normal, 500, 800;
 }
 
 *,
@@ -50,8 +43,8 @@
 */
 /* Text Preset 1 - Figtree Extra Bold, 24px, 150% Line Height */
 .text-preset-1 {
-    font-family: "Figtree ExtraBold", sans-serif;
-    font-weight: 800; /* Extra Bold */
+    font-family: "Figtree", sans-serif;
+    font-weight: 800;
     font-size: 24px;
     line-height: 1.5;
     letter-spacing: 0px;
@@ -60,7 +53,7 @@
 /* Text Preset 2 - Figtree Medium, 16px, 150% Line Height */
 .text-preset-2 {
     font-family: "Figtree", sans-serif;
-    font-weight: 500; /* Medium */
+    font-weight: 500;
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0px;
@@ -69,7 +62,7 @@
 /* Text Preset 3 - Figtree Medium, 14px, 150% Line Height */
 .text-preset-3 {
     font-family: "Figtree", sans-serif;
-    font-weight: 500; /* Medium */
+    font-weight: 500;
     font-size: 14px;
     line-height: 1.5;
     letter-spacing: 0px;
@@ -77,8 +70,8 @@
 
 /* Text Preset 3 (Bold) - Figtree Extra Bold, 14px, 150% Line Height */
 .text-preset-3-bold {
-    font-family: "Figtree ExtraBold", sans-serif;
-    font-weight: 800; /* Extra Bold */
+    font-family: "Figtree", sans-serif;
+    font-weight: 800;
     font-size: 14px;
     line-height: 1.5;
     letter-spacing: 0px;
@@ -104,6 +97,7 @@ body {
     height: fit-content;
     background-color: var(--white);
     width: 384px;
+
     border-radius: 20px;
 
     padding: 24px;

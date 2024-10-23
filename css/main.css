@@ -100,4 +100,13 @@ body {
 main {
     height: fit-content;
     background-color: var(--white);
+    border-radius: 20px;
+}
+
+#card-header-image {
+    border-radius: 10px;
+}
+
+.card-header-image {
+    margin: 24px;
 }

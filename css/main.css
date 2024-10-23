@@ -143,6 +143,16 @@ body {
 }
 
 .card-author {
-    padding-left: 44px;
+    display: flex;
+    align-items: center;
     color: var(--gray-950);
+}
+
+.card-author-profile-picture {
+    height: 32px;
+    width: 32px;
+}
+
+.card-author-name {
+    padding-left: 12px;
 }

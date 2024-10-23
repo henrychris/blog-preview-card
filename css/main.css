@@ -97,7 +97,7 @@ body {
     background-color: var(--yellow);
 }
 
-main {
+.card {
     height: fit-content;
     background-color: var(--white);
     width: 384px;

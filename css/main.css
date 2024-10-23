@@ -113,3 +113,14 @@ main {
 .card-header-image {
     margin-bottom: 24px;
 }
+
+.card-post-status {
+    background-color: var(--yellow);
+    color: var(--gray-950);
+
+    display: inline-block;
+    padding: 4px 12px;
+
+    border-radius: 4px;
+    margin-bottom: 12px;
+}

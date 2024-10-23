@@ -33,6 +33,11 @@
     --yellow: #f4d04e;
     --gray-950: #111111;
     --gray-500: #6b6b6b;
+
+    --spacing-300: 24px;
+    --spacing-150: 12px;
+    --spacing-100: 8px;
+    --spacing-50: 4px;
 }
 
 /*

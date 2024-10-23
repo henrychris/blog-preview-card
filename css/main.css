@@ -132,3 +132,8 @@ main {
 .card-post-title {
     margin: 0 0 12px 0;
 }
+
+.card-post-preview-content {
+    margin: 0 0 12px 0;
+    color: var(--gray-500);
+}

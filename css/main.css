@@ -98,6 +98,7 @@ body {
     background-color: var(--white);
     width: 384px;
 
+    border: 1px solid black;
     border-radius: 20px;
 
     padding: 24px;

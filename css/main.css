@@ -136,6 +136,10 @@ body {
     color: var(--gray-950);
 }
 
+.card-post-title:hover {
+    color: var(--yellow);
+}
+
 .card-post-preview-content {
     margin: 0 0 12px 0;
     color: var(--gray-500);

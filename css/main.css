@@ -7,13 +7,15 @@
 @font-face {
     font-family: "Figtree";
     src: local("Figtree"),
-        url("../assets/fonts/Figtree-VariableFont_wght.ttf") format("truetype"),
-        url("../assets/fonts/Figtree-Italic-VariableFont_wght.ttf")
-            format("truetype"),
-        url("../assets/fonts/static/Figtree-ExtraBold.ttf") format("truetype"),
-        url("../assets/fonts/static/Figtree-SemiBold.ttf") format("truetype");
+        url("../assets/fonts/Figtree-VariableFont_wght.ttf") format("truetype");
     font-weight: normal;
     font-style: normal;
+}
+
+@font-face {
+    font-family: "Figtree ExtraBold";
+    src: local("Figtree"),
+        url("../assets/fonts/static/Figtree-ExtraBold.ttf") format("truetype");
 }
 
 *,
@@ -48,7 +50,7 @@
 */
 /* Text Preset 1 - Figtree Extra Bold, 24px, 150% Line Height */
 .text-preset-1 {
-    font-family: "Figtree", sans-serif;
+    font-family: "Figtree ExtraBold", sans-serif;
     font-weight: 800; /* Extra Bold */
     font-size: 24px;
     line-height: 1.5;
@@ -75,7 +77,7 @@
 
 /* Text Preset 3 (Bold) - Figtree Extra Bold, 14px, 150% Line Height */
 .text-preset-3-bold {
-    font-family: "Figtree", sans-serif;
+    font-family: "Figtree ExtraBold", sans-serif;
     font-weight: 800; /* Extra Bold */
     font-size: 14px;
     line-height: 1.5;

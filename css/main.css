@@ -127,10 +127,12 @@ main {
 
 .card-post-date-published {
     margin: 0 0 12px 0;
+    color: var(--gray-950);
 }
 
 .card-post-title {
     margin: 0 0 12px 0;
+    color: var(--gray-950);
 }
 
 .card-post-preview-content {

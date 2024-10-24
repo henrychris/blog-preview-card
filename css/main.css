@@ -93,10 +93,14 @@ body {
     background-color: var(--yellow);
 }
 
+img {
+    max-width: 100%;
+}
+
 .card {
     height: fit-content;
     background-color: var(--white);
-    width: 384px;
+    max-width: 384px;
 
     border: 1px solid black;
     border-radius: 20px;
@@ -150,8 +154,8 @@ body {
 }
 
 .card-author-profile-picture {
-    height: 32px;
-    width: 32px;
+    max-height: 32px;
+    max-width: 32px;
 }
 
 .card-author-name {

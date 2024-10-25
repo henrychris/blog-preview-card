@@ -55,6 +55,7 @@
     font-family: "Figtree", sans-serif;
     font-weight: 500;
     font-size: 1rem;
+
     line-height: 1.5;
     letter-spacing: 0px;
 }
@@ -64,6 +65,7 @@
     font-family: "Figtree", sans-serif;
     font-weight: 500;
     font-size: 0.875rem;
+
     line-height: 1.5;
     letter-spacing: 0px;
 }
@@ -73,6 +75,7 @@
     font-family: "Figtree", sans-serif;
     font-weight: 800;
     font-size: 0.875rem;
+
     line-height: 1.5;
     letter-spacing: 0px;
 }
@@ -105,10 +108,10 @@ img {
     border: 1px solid black;
     border-radius: 20px;
 
-    padding: 24px;
-    box-shadow: 9px 9px;
+    padding: var(--spacing-300);
+    box-shadow: 7px 7px;
 
-    margin: 155px 24px 155px 24px; /* these give the card space on mobile screens */
+    margin: 155px var(--spacing-300) 155px var(--spacing-300); /* these give the card space on mobile screens */
 }
 
 #card-header-image {
@@ -116,7 +119,7 @@ img {
 }
 
 .card-header-image {
-    margin-bottom: 24px;
+    margin-bottom: var(--spacing-300);
 }
 
 .card-post-status {
@@ -124,19 +127,19 @@ img {
     color: var(--gray-950);
 
     display: inline-block;
-    padding: 4px 12px;
+    padding: var(--spacing-50) var(--spacing-150);
 
-    border-radius: 4px;
-    margin-bottom: 12px;
+    border-radius: var(--spacing-50);
+    margin-bottom: var(--spacing-150);
 }
 
 .card-post-date-published {
-    margin: 0 0 12px 0;
+    margin: 0 0 var(--spacing-150) 0;
     color: var(--gray-950);
 }
 
 .card-post-title {
-    margin: 0 0 12px 0;
+    margin: 0 0 var(--spacing-150) 0;
     color: var(--gray-950);
 }
 
@@ -145,7 +148,7 @@ img {
 }
 
 .card-post-preview-content {
-    margin: 0 0 12px 0;
+    margin: 0 0 var(--spacing-150) 0;
     color: var(--gray-500);
 }
 
@@ -161,5 +164,5 @@ img {
 }
 
 .card-author-name {
-    padding-left: 12px;
+    padding-left: var(--spacing-150);
 }

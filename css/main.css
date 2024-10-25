@@ -107,6 +107,8 @@ img {
 
     padding: 24px;
     box-shadow: 9px 9px;
+
+    margin: 155px 24px 155px 24px; /* these give the card space on mobile screens */
 }
 
 #card-header-image {
